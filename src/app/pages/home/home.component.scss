@@ -1,0 +1,17 @@
+.home-page-content {
+    background: url('../../../assets/images/plastic4.jpeg') no-repeat center top fixed;
+    height: calc(100vh - 150px);
+
+    h1 {
+        color: var(--secondary-color);
+        font-weight: bolder;
+        font-style: italic;
+        padding: 100px 100px 0 30px;
+    }
+}
+
+@media only screen and (min-width:1200px){
+    h1{
+        font-size: 3.5rem;
+    }
+}
